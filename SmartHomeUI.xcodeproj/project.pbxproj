@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		997598122D4346C9000EEAF7 /* ThermostatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997598112D4346C9000EEAF7 /* ThermostatButton.swift */; };
+		997598142D435FC0000EEAF7 /* TemperatureKnob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997598132D435FC0000EEAF7 /* TemperatureKnob.swift */; };
+		9982B40A2D474746003C2FA1 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9982B4092D474746003C2FA1 /* BadgeBackground.swift */; };
+		9982B40C2D47479C003C2FA1 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9982B40B2D47479C003C2FA1 /* HexagonParameters.swift */; };
+		9982B40F2D475D1D003C2FA1 /* ThermoStatViewDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9982B40E2D475D1D003C2FA1 /* ThermoStatViewDiff.swift */; };
+		9982B4112D475DC2003C2FA1 /* SingleWeatherCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9982B4102D475DC2003C2FA1 /* SingleWeatherCard.swift */; };
+		9982B4132D477929003C2FA1 /* TemperatureKnobDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9982B4122D477929003C2FA1 /* TemperatureKnobDiff.swift */; };
+		999934462D425CE60086A97E /* FooterSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999934452D425CE60086A97E /* FooterSection.swift */; };
+		99E17BE62D420F7E0060E1A8 /* ThermoStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E17BE52D420F7E0060E1A8 /* ThermoStatView.swift */; };
+		99E17BE82D421D940060E1A8 /* WeatherCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E17BE72D421D940060E1A8 /* WeatherCardView.swift */; };
+		99FB60BB2D409F97002B978E /* SmartHomeUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB60BA2D409F97002B978E /* SmartHomeUIApp.swift */; };
+		99FB60BD2D409F97002B978E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB60BC2D409F97002B978E /* ContentView.swift */; };
+		99FB60BF2D409F9A002B978E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99FB60BE2D409F9A002B978E /* Assets.xcassets */; };
+		99FB60C22D409F9A002B978E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99FB60C12D409F9A002B978E /* Preview Assets.xcassets */; };
+		99FB60E52D40AC5C002B978E /* OverLappingAvatars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB60E42D40AC5C002B978E /* OverLappingAvatars.swift */; };
+		99FB60E72D40D1A7002B978E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB60E62D40D1A7002B978E /* CardView.swift */; };
+		99FB60EA2D40EDE9002B978E /* RoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB60E92D40EDE9002B978E /* RoomModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99FB60C82D409F9B002B978E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99FB60AF2D409F97002B978E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99FB60B62D409F97002B978E;
+			remoteInfo = SmartHomeUI;
+		};
+		99FB60D22D409F9B002B978E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99FB60AF2D409F97002B978E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99FB60B62D409F97002B978E;
+			remoteInfo = SmartHomeUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		997598112D4346C9000EEAF7 /* ThermostatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermostatButton.swift; sourceTree = "<group>"; };
+		997598132D435FC0000EEAF7 /* TemperatureKnob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureKnob.swift; sourceTree = "<group>"; };
+		9982B4092D474746003C2FA1 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		9982B40B2D47479C003C2FA1 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		9982B40E2D475D1D003C2FA1 /* ThermoStatViewDiff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermoStatViewDiff.swift; sourceTree = "<group>"; };
+		9982B4102D475DC2003C2FA1 /* SingleWeatherCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleWeatherCard.swift; sourceTree = "<group>"; };
+		9982B4122D477929003C2FA1 /* TemperatureKnobDiff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureKnobDiff.swift; sourceTree = "<group>"; };
+		999934452D425CE60086A97E /* FooterSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSection.swift; sourceTree = "<group>"; };
+		99E17BE52D420F7E0060E1A8 /* ThermoStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermoStatView.swift; sourceTree = "<group>"; };
+		99E17BE72D421D940060E1A8 /* WeatherCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCardView.swift; sourceTree = "<group>"; };
+		99FB60B72D409F97002B978E /* SmartHomeUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHomeUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FB60BA2D409F97002B978E /* SmartHomeUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHomeUIApp.swift; sourceTree = "<group>"; };
+		99FB60BC2D409F97002B978E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		99FB60BE2D409F9A002B978E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99FB60C12D409F9A002B978E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99FB60C72D409F9B002B978E /* SmartHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FB60D12D409F9B002B978E /* SmartHomeUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartHomeUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FB60E42D40AC5C002B978E /* OverLappingAvatars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverLappingAvatars.swift; sourceTree = "<group>"; };
+		99FB60E62D40D1A7002B978E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		99FB60E92D40EDE9002B978E /* RoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99FB60B42D409F97002B978E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB60C42D409F9B002B978E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB60CE2D409F9B002B978E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9982B40D2D475C93003C2FA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99FB60E62D40D1A7002B978E /* CardView.swift */,
+				99FB60BC2D409F97002B978E /* ContentView.swift */,
+				999934452D425CE60086A97E /* FooterSection.swift */,
+				99FB60E42D40AC5C002B978E /* OverLappingAvatars.swift */,
+				99FB60BA2D409F97002B978E /* SmartHomeUIApp.swift */,
+				99E17BE52D420F7E0060E1A8 /* ThermoStatView.swift */,
+				997598132D435FC0000EEAF7 /* TemperatureKnob.swift */,
+				997598112D4346C9000EEAF7 /* ThermostatButton.swift */,
+				9982B40E2D475D1D003C2FA1 /* ThermoStatViewDiff.swift */,
+				99E17BE72D421D940060E1A8 /* WeatherCardView.swift */,
+				9982B4102D475DC2003C2FA1 /* SingleWeatherCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99FB60AE2D409F97002B978E = {
+			isa = PBXGroup;
+			children = (
+				99FB60B92D409F97002B978E /* SmartHomeUI */,
+				99FB60B82D409F97002B978E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99FB60B82D409F97002B978E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99FB60B72D409F97002B978E /* SmartHomeUI.app */,
+				99FB60C72D409F9B002B978E /* SmartHomeUITests.xctest */,
+				99FB60D12D409F9B002B978E /* SmartHomeUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99FB60B92D409F97002B978E /* SmartHomeUI */ = {
+			isa = PBXGroup;
+			children = (
+				9982B40D2D475C93003C2FA1 /* Views */,
+				99FB60E82D40EDD4002B978E /* Models */,
+				99FB60BE2D409F9A002B978E /* Assets.xcassets */,
+				99FB60C02D409F9A002B978E /* Preview Content */,
+				9982B4092D474746003C2FA1 /* BadgeBackground.swift */,
+				9982B40B2D47479C003C2FA1 /* HexagonParameters.swift */,
+				9982B4122D477929003C2FA1 /* TemperatureKnobDiff.swift */,
+			);
+			path = SmartHomeUI;
+			sourceTree = "<group>";
+		};
+		99FB60C02D409F9A002B978E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				99FB60C12D409F9A002B978E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99FB60E82D40EDD4002B978E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				99FB60E92D40EDE9002B978E /* RoomModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99FB60B62D409F97002B978E /* SmartHomeUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FB60DB2D409F9B002B978E /* Build configuration list for PBXNativeTarget "SmartHomeUI" */;
+			buildPhases = (
+				99FB60B32D409F97002B978E /* Sources */,
+				99FB60B42D409F97002B978E /* Frameworks */,
+				99FB60B52D409F97002B978E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartHomeUI;
+			productName = SmartHomeUI;
+			productReference = 99FB60B72D409F97002B978E /* SmartHomeUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99FB60C62D409F9B002B978E /* SmartHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FB60DE2D409F9B002B978E /* Build configuration list for PBXNativeTarget "SmartHomeUITests" */;
+			buildPhases = (
+				99FB60C32D409F9B002B978E /* Sources */,
+				99FB60C42D409F9B002B978E /* Frameworks */,
+				99FB60C52D409F9B002B978E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99FB60C92D409F9B002B978E /* PBXTargetDependency */,
+			);
+			name = SmartHomeUITests;
+			productName = SmartHomeUITests;
+			productReference = 99FB60C72D409F9B002B978E /* SmartHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99FB60D02D409F9B002B978E /* SmartHomeUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FB60E12D409F9B002B978E /* Build configuration list for PBXNativeTarget "SmartHomeUIUITests" */;
+			buildPhases = (
+				99FB60CD2D409F9B002B978E /* Sources */,
+				99FB60CE2D409F9B002B978E /* Frameworks */,
+				99FB60CF2D409F9B002B978E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99FB60D32D409F9B002B978E /* PBXTargetDependency */,
+			);
+			name = SmartHomeUIUITests;
+			productName = SmartHomeUIUITests;
+			productReference = 99FB60D12D409F9B002B978E /* SmartHomeUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99FB60AF2D409F97002B978E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					99FB60B62D409F97002B978E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					99FB60C62D409F9B002B978E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 99FB60B62D409F97002B978E;
+					};
+					99FB60D02D409F9B002B978E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 99FB60B62D409F97002B978E;
+					};
+				};
+			};
+			buildConfigurationList = 99FB60B22D409F97002B978E /* Build configuration list for PBXProject "SmartHomeUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99FB60AE2D409F97002B978E;
+			productRefGroup = 99FB60B82D409F97002B978E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99FB60B62D409F97002B978E /* SmartHomeUI */,
+				99FB60C62D409F9B002B978E /* SmartHomeUITests */,
+				99FB60D02D409F9B002B978E /* SmartHomeUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99FB60B52D409F97002B978E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FB60C22D409F9A002B978E /* Preview Assets.xcassets in Resources */,
+				99FB60BF2D409F9A002B978E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB60C52D409F9B002B978E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB60CF2D409F9B002B978E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99FB60B32D409F97002B978E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9982B40C2D47479C003C2FA1 /* HexagonParameters.swift in Sources */,
+				99FB60E52D40AC5C002B978E /* OverLappingAvatars.swift in Sources */,
+				99E17BE62D420F7E0060E1A8 /* ThermoStatView.swift in Sources */,
+				999934462D425CE60086A97E /* FooterSection.swift in Sources */,
+				997598122D4346C9000EEAF7 /* ThermostatButton.swift in Sources */,
+				99FB60BD2D409F97002B978E /* ContentView.swift in Sources */,
+				9982B4112D475DC2003C2FA1 /* SingleWeatherCard.swift in Sources */,
+				99E17BE82D421D940060E1A8 /* WeatherCardView.swift in Sources */,
+				9982B40A2D474746003C2FA1 /* BadgeBackground.swift in Sources */,
+				9982B4132D477929003C2FA1 /* TemperatureKnobDiff.swift in Sources */,
+				997598142D435FC0000EEAF7 /* TemperatureKnob.swift in Sources */,
+				99FB60EA2D40EDE9002B978E /* RoomModel.swift in Sources */,
+				9982B40F2D475D1D003C2FA1 /* ThermoStatViewDiff.swift in Sources */,
+				99FB60E72D40D1A7002B978E /* CardView.swift in Sources */,
+				99FB60BB2D409F97002B978E /* SmartHomeUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB60C32D409F9B002B978E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB60CD2D409F9B002B978E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99FB60C92D409F9B002B978E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99FB60B62D409F97002B978E /* SmartHomeUI */;
+			targetProxy = 99FB60C82D409F9B002B978E /* PBXContainerItemProxy */;
+		};
+		99FB60D32D409F9B002B978E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99FB60B62D409F97002B978E /* SmartHomeUI */;
+			targetProxy = 99FB60D22D409F9B002B978E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99FB60D92D409F9B002B978E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99FB60DA2D409F9B002B978E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99FB60DC2D409F9B002B978E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartHomeUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.Shashank.SmartHomeUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99FB60DD2D409F9B002B978E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartHomeUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.Shashank.SmartHomeUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99FB60DF2D409F9B002B978E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.Shashank.SmartHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartHomeUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartHomeUI";
+			};
+			name = Debug;
+		};
+		99FB60E02D409F9B002B978E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.Shashank.SmartHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartHomeUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartHomeUI";
+			};
+			name = Release;
+		};
+		99FB60E22D409F9B002B978E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.Shashank.SmartHomeUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartHomeUI;
+			};
+			name = Debug;
+		};
+		99FB60E32D409F9B002B978E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.Shashank.SmartHomeUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartHomeUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99FB60B22D409F97002B978E /* Build configuration list for PBXProject "SmartHomeUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FB60D92D409F9B002B978E /* Debug */,
+				99FB60DA2D409F9B002B978E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99FB60DB2D409F9B002B978E /* Build configuration list for PBXNativeTarget "SmartHomeUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FB60DC2D409F9B002B978E /* Debug */,
+				99FB60DD2D409F9B002B978E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99FB60DE2D409F9B002B978E /* Build configuration list for PBXNativeTarget "SmartHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FB60DF2D409F9B002B978E /* Debug */,
+				99FB60E02D409F9B002B978E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99FB60E12D409F9B002B978E /* Build configuration list for PBXNativeTarget "SmartHomeUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FB60E22D409F9B002B978E /* Debug */,
+				99FB60E32D409F9B002B978E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99FB60AF2D409F97002B978E /* Project object */;
+}
